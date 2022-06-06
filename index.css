@@ -1,0 +1,134 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.input
+{
+    padding:3px;
+    width:500px;
+    font-size:18px;
+    margin-left:20%;
+    outline:none;
+    color:black;
+    margin-top:8px;
+    background-color:white;
+    box-sizing:border-box;
+    border:none;
+    border:3px solid white;
+    border-radius: 6px;
+    
+}
+
+.topBar
+{
+    align-items:center;
+    width:100%;
+    margin:0px;
+    height:60px;
+    background: rgb(58, 158, 0);
+    background: linear-gradient(90deg,rgb(73, 241, 7)0% ,rgb(29, 214, 23) 35%,rgb(39, 223, 63) 100%);
+    box-shadow:4px 6px 6px #eee;
+    margin:0px;
+    display:flex;
+    text-align:center;
+    
+}
+.cricketTeamName
+{
+    margin-top:40;
+    margin-bottom: 50;
+    font-size:60px;
+    font-weight:600;
+    text-align:center;
+    font-family: 'Pacifico', cursive;
+    color: #36f710;;
+   
+}
+.card
+{
+    width:400px;
+    margin-left:10px;
+    margin-bottom:20px;
+    cursor:pointer;
+}
+.cardimage
+{
+    box-shadow: 6px 6px 23px 5px rgba(0,0,0,0.34);
+    -webkit-box-shadow: 6px 6px 23px 5px rgba(0,0,0,0.34);
+    -moz-box-shadow: 6px 6px 23px 5px rgba(0,0,0,0.34);
+    width:100%;
+    height:280px;
+    z-index : 0;
+    
+}
+.logocard
+{
+    width:120px;
+    height:100px;
+    border-radius:10px;
+    background-color:white;
+    padding:10px;
+    
+}
+.logoimage
+{
+    width:100%;
+    height:100%;
+    text-align:center;
+}
+.pos1
+{
+    position:absolute;
+    top:50%;
+    left:10%;
+}
+.teams{
+    display:flex;
+    justify-items: center;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    
+}
+.text
+{
+    font-size:18px;
+    width:350px;
+    text-align:center;
+    color:white;
+    text-transform:uppercase;
+    
+}
+
+.addBtn
+{
+    margin-left:60%;
+    padding:8px;
+    color:rgb(24, 23, 23);
+    outline:none;
+    border-radius:6px;
+    width:200px;
+    height:45px;
+    background: white;
+    font-size:18px;
+    border:none;
+    font-weight: 400;
+}
+.formData
+{
+    display:flex;
+    justify-content:center;
+}
+
+.formData input {
+    border-color: #09ec60;
+    outline: none !important;
+}
+
+input, select, textarea{
+    color: #161616;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(24, 22, 22);
+  }
